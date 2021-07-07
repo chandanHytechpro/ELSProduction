@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Snooze</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Snooze</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/20.0/apex.js&quot;)}
+
+var elsp = new sforce.SObject(&quot;ELS_Product__c&quot;);
+elsp.id = &quot;{!ELS_Product__c.Id}&quot;;
+elsp.Status__c =&quot;Snoozed&quot;;
+
+
+
+
+
+
+result = sforce.connection.update([elsp]);
+
+
+window.location.reload();</url>
+</WebLink>

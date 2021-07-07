@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Client Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lazy Days Temp</fullName>
+                <default>false</default>
+                <label>Lazy Days Temp</label>
+            </value>
+            <value>
+                <fullName>Marketing Guest</fullName>
+                <default>false</default>
+                <label>Marketing Guest</label>
+            </value>
+            <value>
+                <fullName>Retail</fullName>
+                <default>false</default>
+                <label>Retail</label>
+            </value>
+            <value>
+                <fullName>Sales Opportunity</fullName>
+                <default>false</default>
+                <label>Sales Opportunity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_with_Pardot__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that the record meets the criteria to sync to Pardot.  Checked means that the record will be visible to the connector user and sync.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that the record meets the criteria to sync to Pardot</inlineHelpText>
+    <label>Sync with Pardot</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

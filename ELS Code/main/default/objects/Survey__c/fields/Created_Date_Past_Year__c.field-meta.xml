@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Created_Date_Past_Year__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TODAY() - DATEVALUE(CreatedDate)  &lt;= 365, True, False)</formula>
+    <label>Created Date (Past Year)</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

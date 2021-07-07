@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Passes_Contact_Validation_Rules__c</fullName>
+    <externalId>false</externalId>
+    <formula>Not(OR( 
+AND(OR(ISBLANK(MailingStreet__c), ISBLANK(MailingCity__c), ISBLANK(MailingState__c), ISBLANK(MailingPostalCode__c)), OR(NOT(ISBLANK(MailingStreet__c)),NOT(ISBLANK(MailingCity__c)),NOT(ISBLANK(MailingState__c)),NOT(ISBLANK(MailingPostalCode__c)))), 
+
+AND( 
+NOT(ISBLANK(MailingCity__c)), 
+OR( 
+LEN( MailingCity__c)&gt;30, 
+LEN( MailingCity__c)&lt;2)), 
+
+AND( 
+NOT(ISBLANK(Email__c)), 
+OR( 
+LEN( Email__c)&gt;50, 
+LEN( Email__c)&lt;5)), 
+
+AND( 
+NOT(ISBLANK(FirstName__c)), 
+LEN( FirstName__c)&gt;30), 
+
+ISBLANK (FirstName__c), 
+
+AND( 
+NOT(ISBLANK(MailingCountry__c )), 
+LEN( MailingCountry__c )&gt;3), 
+
+AND( 
+NOT(ISBLANK(MailingState__c)), 
+OR( 
+LEN( MailingState__c)&gt;25, 
+LEN( MailingState__c)&lt;2)), 
+
+AND( 
+NOT(ISBLANK(MailingPostalCode__c )), 
+OR( 
+LEN( MailingPostalCode__c )&lt;5, 
+LEN( MailingPostalCode__c )&gt;15))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Passes Contact Validation Rules</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

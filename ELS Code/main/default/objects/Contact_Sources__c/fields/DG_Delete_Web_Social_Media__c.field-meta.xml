@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DG_Delete_Web_Social_Media__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(AND((YEAR( TODAY() ) *12 + MONTH( TODAY() )) - (YEAR( Add_Date__c ) *12 + MONTH( Add_Date__c)) &gt; 18,  DG_Is_Web_Or_Social_Media__c  ),true,false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DG_Delete_Web_Social_Media</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

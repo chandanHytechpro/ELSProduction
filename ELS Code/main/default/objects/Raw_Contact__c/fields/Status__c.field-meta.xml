@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACTIVATED</fullName>
+                <default>false</default>
+                <label>ACTIVATED</label>
+            </value>
+            <value>
+                <fullName>Assigned</fullName>
+                <default>false</default>
+                <label>Assigned</label>
+            </value>
+            <value>
+                <fullName>Contract Sent</fullName>
+                <default>false</default>
+                <label>Contract Sent</label>
+            </value>
+            <value>
+                <fullName>CONTRACTVOIDED</fullName>
+                <default>false</default>
+                <label>CONTRACTVOIDED</label>
+            </value>
+            <value>
+                <fullName>Converted</fullName>
+                <default>false</default>
+                <label>Converted</label>
+            </value>
+            <value>
+                <fullName>Dead</fullName>
+                <default>false</default>
+                <label>Dead</label>
+            </value>
+            <value>
+                <fullName>DECLINE</fullName>
+                <default>false</default>
+                <label>DECLINE</label>
+            </value>
+            <value>
+                <fullName>EXISTINGMEMBER</fullName>
+                <default>false</default>
+                <label>EXISTINGMEMBER</label>
+            </value>
+            <value>
+                <fullName>In Process</fullName>
+                <default>false</default>
+                <label>In Process</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>No Answer</fullName>
+                <default>false</default>
+                <label>No Answer</label>
+            </value>
+            <value>
+                <fullName>NOCONTACTINFO</fullName>
+                <default>false</default>
+                <label>NOCONTACTINFO</label>
+            </value>
+            <value>
+                <fullName>NOTQUALIFIED</fullName>
+                <default>false</default>
+                <label>NOTQUALIFIED</label>
+            </value>
+            <value>
+                <fullName>Recycled</fullName>
+                <default>false</default>
+                <label>Recycled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

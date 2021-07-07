@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dont_allow_changes_to_INSCwD_field</fullName>
+    <active>false</active>
+    <errorConditionFormula>And(
+IsChanged( Initial_Net_Site_Charges_w_Discount__c ),
+Not IsBlank(PriorValue( Initial_Net_Site_Charges_w_Discount__c ))
+)</errorConditionFormula>
+    <errorDisplayField>Initial_Net_Site_Charges_w_Discount__c</errorDisplayField>
+    <errorMessage>This field can&apos;t be modified after it&apos;s been populated.</errorMessage>
+</ValidationRule>

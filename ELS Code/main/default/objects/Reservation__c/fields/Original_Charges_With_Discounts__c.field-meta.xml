@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Charges_With_Discounts__c</fullName>
+    <description>Original amount due before taxes less discounts as calculated at creation/cancellation OR 2nd to last amount after updates to either Amount Due Before Taxes and Discounts or Discounts fields.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Original amount due before taxes less discounts as calculated at creation/cancellation OR 2nd to last amount after updates to either Amount Due Before Taxes and Discounts or Discounts fields.</inlineHelpText>
+    <label>Org Charges After Org Discounts</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Williamsburg_Arriving_Next_7_Days</fullName>
+    <columns>Contact__c</columns>
+    <columns>Arrival_Date__c</columns>
+    <columns>Departure_Date__c</columns>
+    <columns>Contact_Email__c</columns>
+    <columns>Contact_Phone__c</columns>
+    <columns>Customer_Type__c</columns>
+    <columns>Amount_due_before_taxes__c</columns>
+    <columns>Unit_Site_Type__c</columns>
+    <columns>Discounts__c</columns>
+    <columns>Product_Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Arrival_Date__c</field>
+        <operation>equals</operation>
+        <value>NEXT_N_DAYS:7</value>
+    </filters>
+    <filters>
+        <field>Unique_Property_ID__c</field>
+        <operation>equals</operation>
+        <value>5122</value>
+    </filters>
+    <filters>
+        <field>Reservation_Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>Unit_Site_Type__c</field>
+        <operation>notContain</operation>
+        <value>storage</value>
+    </filters>
+    <label>Williamsburg Arriving Next 7 Days</label>
+    <sharedTo>
+        <group>Williamsburg</group>
+    </sharedTo>
+</ListView>

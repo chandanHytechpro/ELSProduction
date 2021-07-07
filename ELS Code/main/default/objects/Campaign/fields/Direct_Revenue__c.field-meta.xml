@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Direct_Revenue__c</fullName>
+    <description>Direct revenue grand total of all related promotional codes of Reservations booked after the Contact was added to the Campaign. Promotional code must be identified specifically to be included.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Direct revenue grand total of all related promotional codes of Reservations booked after the Contact was added to the Campaign. Promotional code must be identified specifically to be included.</inlineHelpText>
+    <label>Direct Revenue Grand Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Currency</type>
+</CustomField>

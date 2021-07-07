@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surveys_Edited_Yesterday</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Client_ID__c</columns>
+    <columns>Reservation_ID__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LAST_UPDATE</field>
+        <operation>equals</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <label>Surveys Edited Yesterday</label>
+</ListView>

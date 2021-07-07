@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_stamp_first_New_Rate_Class_Group__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Time stamp first New Rate Class Group</inlineHelpText>
+    <label>Time stamp first New Rate Class Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAS__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR( ISBLANK(FirstName ) , ISBLANK(LastName ) , ISBLANK(MailingStreet ),  ISBLANK(MailingState),  Is_Default_First_Name__c,  Is_Default_Last_Name__c , Is_Default_Address__c) , null, MID( FirstName , 0, 1) &amp; MID( LastName ,0, 3) &amp;  MailingStreet  &amp;  MailingState)</formula>
+    <label>FLAS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

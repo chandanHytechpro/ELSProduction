@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Annual_Survey_Deployment_Date__c</columns>
+    <columns>Property_ID__c</columns>
+    <columns>Property_Name__c</columns>
+    <columns>Property_Type__c</columns>
+    <columns>Region__c</columns>
+    <columns>Asset_Type__c</columns>
+    <columns>Acquisition_Year__c</columns>
+    <columns>State__c</columns>
+    <columns>Fr_code__c</columns>
+    <columns>Market__c</columns>
+    <columns>Core__c</columns>
+    <columns>Robot_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

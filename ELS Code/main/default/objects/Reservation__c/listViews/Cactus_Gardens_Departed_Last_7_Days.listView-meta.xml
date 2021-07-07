@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cactus_Gardens_Departed_Last_7_Days</fullName>
+    <columns>Contact__c</columns>
+    <columns>Arrival_Date__c</columns>
+    <columns>Departure_Date__c</columns>
+    <columns>Contact_Email__c</columns>
+    <columns>Contact_Phone__c</columns>
+    <columns>Customer_Type__c</columns>
+    <columns>Amount_due_before_taxes__c</columns>
+    <columns>Unit_Site_Type__c</columns>
+    <columns>Discounts__c</columns>
+    <columns>Product_Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Arrival_Date__c</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:30</value>
+    </filters>
+    <filters>
+        <field>Unique_Property_ID__c</field>
+        <operation>equals</operation>
+        <value>7690</value>
+    </filters>
+    <filters>
+        <field>Reservation_Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>Unit_Site_Type__c</field>
+        <operation>notContain</operation>
+        <value>storage</value>
+    </filters>
+    <filters>
+        <field>Departure_Date__c</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:7</value>
+    </filters>
+    <label>Cactus Gardens Departed Last 7 Days</label>
+    <sharedTo>
+        <group>Cactus_Gardens_Capri</group>
+    </sharedTo>
+</ListView>

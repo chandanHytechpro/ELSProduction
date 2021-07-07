@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Org_Amount_Due_Before_Taxes_Discounts__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Initial Amount due before taxes &amp; discounts. The value for this field does not change after the Created Date has passed to account for data entry errors or same-day changes or corrections. If Booked Date = Date Cancelled then $0.</inlineHelpText>
+    <label>Org Charges Before Taxes &amp; Discounts</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

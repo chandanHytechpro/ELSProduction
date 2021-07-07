@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q105__c</fullName>
+    <description>Do the grounds appear to be well tended and the buildings thoughtfully cared for?</description>
+    <externalId>false</externalId>
+    <label>Q105: Grounds and buildings cared for</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DG_Delete_Ready_Camp_Go__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(AND((YEAR( TODAY() ) *12 + MONTH( TODAY() )) - (YEAR(  Expire_Date__c ) *12 + MONTH( Expire_Date__c)) &gt; 24,RecordType.DeveloperName == &apos;Ready_Camp_Go&apos;),true,false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DG_Delete_Ready_Camp_Go</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

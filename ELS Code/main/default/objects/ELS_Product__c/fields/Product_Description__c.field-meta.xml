@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Description__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ready Camp Go - Gold</fullName>
+                <default>false</default>
+                <label>Ready Camp Go - Gold</label>
+            </value>
+            <value>
+                <fullName>Ready Camp Go - Platinum</fullName>
+                <default>false</default>
+                <label>Ready Camp Go - Platinum</label>
+            </value>
+            <value>
+                <fullName>Ready Camp Go - Plus</fullName>
+                <default>false</default>
+                <label>Ready Camp Go - Plus</label>
+            </value>
+            <value>
+                <fullName>Ready Camp Go - Silver</fullName>
+                <default>false</default>
+                <label>Ready Camp Go - Silver</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

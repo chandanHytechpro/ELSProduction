@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Annual_Departure_Date__c</fullName>
+    <description>departure date should only be displayed if the departure date occurred prior to today. Meaning, if the customer has a reservation with a departure date in the future then it shouldn&apos;t be displayed.</description>
+    <externalId>false</externalId>
+    <label>Last Annual Departure Date</label>
+    <summarizedField>Reservation__c.Departure_Date__c</summarizedField>
+    <summaryFilterItems>
+        <field>Reservation__c.New_Rate_Class_Group__c</field>
+        <operation>equals</operation>
+        <value>Annual</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Reservation__c.Reservation_Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Reservation__c.Contact__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

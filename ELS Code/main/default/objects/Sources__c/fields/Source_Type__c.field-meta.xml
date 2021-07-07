@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Source Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <label>Web</label>
+            </value>
+            <value>
+                <fullName>Dealer</fullName>
+                <default>false</default>
+                <label>Dealer</label>
+            </value>
+            <value>
+                <fullName>Discount Camping</fullName>
+                <default>false</default>
+                <label>Discount Camping</label>
+            </value>
+            <value>
+                <fullName>Membership</fullName>
+                <default>false</default>
+                <label>Membership</label>
+            </value>
+            <value>
+                <fullName>Paid Online</fullName>
+                <default>false</default>
+                <label>Paid Online</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Ready Camp Go</fullName>
+                <default>false</default>
+                <label>Ready Camp Go</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Reservation</fullName>
+                <default>false</default>
+                <label>Reservation</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Trial Camping</fullName>
+                <default>false</default>
+                <label>Trial Camping</label>
+            </value>
+            <value>
+                <fullName>TradeShow</fullName>
+                <default>false</default>
+                <label>TradeShow</label>
+            </value>
+            <value>
+                <fullName>Free Trial</fullName>
+                <default>false</default>
+                <label>Free Trial</label>
+            </value>
+            <value>
+                <fullName>Voyager RV</fullName>
+                <default>false</default>
+                <label>Voyager RV</label>
+            </value>
+            <value>
+                <fullName>KOA Leads</fullName>
+                <default>false</default>
+                <label>KOA Leads</label>
+            </value>
+            <value>
+                <fullName>Co-registration</fullName>
+                <default>false</default>
+                <label>Co-registration</label>
+            </value>
+            <value>
+                <fullName>LazyDay Travel Center</fullName>
+                <default>false</default>
+                <label>LazyDay Travel Center</label>
+            </value>
+            <value>
+                <fullName>Digital Display Booking</fullName>
+                <default>false</default>
+                <label>Digital Display Booking</label>
+            </value>
+            <value>
+                <fullName>Property</fullName>
+                <default>false</default>
+                <label>Property</label>
+            </value>
+            <value>
+                <fullName>Call Center</fullName>
+                <default>false</default>
+                <label>Call Center</label>
+            </value>
+            <value>
+                <fullName>Petite Retreats</fullName>
+                <default>false</default>
+                <label>Petite Retreats</label>
+            </value>
+            <value>
+                <fullName>Tiny House</fullName>
+                <default>false</default>
+                <label>Tiny House</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>RV Dealer Submission</fullName>
+                <default>false</default>
+                <label>RV Dealer Submission</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>CampUSA</fullName>
+                <default>false</default>
+                <label>CampUSA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

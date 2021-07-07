@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>ELS</label>
+    <logo>SharedDocuments/ELS_Logo.jpg</logo>
+    <tabs>standard-Contact</tabs>
+    <tabs>Membership__c</tabs>
+    <tabs>Reservation__c</tabs>
+    <tabs>Site__c</tabs>
+    <tabs>Property__c</tabs>
+    <tabs>Sources__c</tabs>
+    <tabs>Amenities__c</tabs>
+    <tabs>ClientID__c</tabs>
+    <tabs>ELS_Product__c</tabs>
+    <tabs>Partner_Sources__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>Woobox_Promotion__c</tabs>
+    <tabs>Error__c</tabs>
+    <tabs>Batch_Log__c</tabs>
+    <tabs>et4ae5__Configuration__c</tabs>
+    <tabs>Zapier_logs__c</tabs>
+    <tabs>Raw_Client__c</tabs>
+    <tabs>RawUnit__c</tabs>
+    <tabs>Raw_Membership__c</tabs>
+</CustomApplication>

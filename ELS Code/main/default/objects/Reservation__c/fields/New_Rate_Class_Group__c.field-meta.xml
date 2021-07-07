@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Rate_Class_Group__c</fullName>
+    <description>Site type and number of days to determine if its a transient, seasonal, or annual reservation if its someone on site with that many days or n/a if its something like storage or someone staying with a managers reservation ect</description>
+    <externalId>false</externalId>
+    <label>New Rate Class Group</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual</fullName>
+                <default>false</default>
+                <label>Annual</label>
+            </value>
+            <value>
+                <fullName>Seasonal</fullName>
+                <default>false</default>
+                <label>Seasonal</label>
+            </value>
+            <value>
+                <fullName>Transient</fullName>
+                <default>false</default>
+                <label>Transient</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

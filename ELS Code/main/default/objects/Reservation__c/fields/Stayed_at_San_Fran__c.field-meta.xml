@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stayed_at_San_Fran__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND( Unique_Property_ID__c =&quot;5047&quot;,Arrival_Date__c &gt;DATE(2018,01,01)),TRUE,FALSE)</formula>
+    <label>Stayed at San Fran</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

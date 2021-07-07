@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Default_Other_Phone__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(ISBLANK(OtherPhone), ISNULL(OtherPhone), SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(OtherPhone, &quot;+&quot;, &quot;&quot;), &quot;(&quot;, &quot;&quot;), &quot;)&quot;, &quot;&quot;), &quot;-&quot;, &quot;&quot;), &quot; &quot;,&quot;&quot;), &quot;.&quot;,&quot;&quot;), &quot;/&quot;,&quot;&quot;) == &apos;9999999999&apos;, LEN(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(OtherPhone, &quot;+&quot;, &quot;&quot;), &quot;(&quot;, &quot;&quot;), &quot;)&quot;, &quot;&quot;), &quot;-&quot;, &quot;&quot;), &quot; &quot;,&quot;&quot;), &quot;.&quot;,&quot;&quot;), &quot;/&quot;,&quot;&quot;)) &lt; 7 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Default Other Phone</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

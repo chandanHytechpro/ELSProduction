@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_Class_Label__c</fullName>
+    <externalId>false</externalId>
+    <label>Type Class Label</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3rd Party Rentals</fullName>
+                <default>false</default>
+                <label>3rd Party Rentals</label>
+            </value>
+            <value>
+                <fullName>Condos</fullName>
+                <default>false</default>
+                <label>Condos</label>
+            </value>
+            <value>
+                <fullName>ELS Lease/Sub</fullName>
+                <default>false</default>
+                <label>ELS Lease/Sub</label>
+            </value>
+            <value>
+                <fullName>Encore Rentals</fullName>
+                <default>false</default>
+                <label>Encore Rentals</label>
+            </value>
+            <value>
+                <fullName>Encore Resorts</fullName>
+                <default>false</default>
+                <label>Encore Resorts</label>
+            </value>
+            <value>
+                <fullName>Encore Slips</fullName>
+                <default>false</default>
+                <label>Encore Slips</label>
+            </value>
+            <value>
+                <fullName>Getaway</fullName>
+                <default>false</default>
+                <label>Getaway</label>
+            </value>
+            <value>
+                <fullName>Member Rentals</fullName>
+                <default>false</default>
+                <label>Member Rentals</label>
+            </value>
+            <value>
+                <fullName>Member Sites</fullName>
+                <default>false</default>
+                <label>Member Sites</label>
+            </value>
+            <value>
+                <fullName>Member Tents</fullName>
+                <default>false</default>
+                <label>Member Tents</label>
+            </value>
+            <value>
+                <fullName>Member Trailers</fullName>
+                <default>false</default>
+                <label>Member Trailers</label>
+            </value>
+            <value>
+                <fullName>Park Use Day Use</fullName>
+                <default>false</default>
+                <label>Park Use Day Use</label>
+            </value>
+            <value>
+                <fullName>Park Use Facilities</fullName>
+                <default>false</default>
+                <label>Park Use Facilities</label>
+            </value>
+            <value>
+                <fullName>Park Use Rentals</fullName>
+                <default>false</default>
+                <label>Park Use Rentals</label>
+            </value>
+            <value>
+                <fullName>Park Use Sites</fullName>
+                <default>false</default>
+                <label>Park Use Sites</label>
+            </value>
+            <value>
+                <fullName>Park Use Tents</fullName>
+                <default>false</default>
+                <label>Park Use Tents</label>
+            </value>
+            <value>
+                <fullName>Park Use Trailers</fullName>
+                <default>false</default>
+                <label>Park Use Trailers</label>
+            </value>
+            <value>
+                <fullName>Public Rentals</fullName>
+                <default>false</default>
+                <label>Public Rentals</label>
+            </value>
+            <value>
+                <fullName>Public Site</fullName>
+                <default>false</default>
+                <label>Public Site</label>
+            </value>
+            <value>
+                <fullName>Public Tents</fullName>
+                <default>false</default>
+                <label>Public Tents</label>
+            </value>
+            <value>
+                <fullName>Public Use Day Use</fullName>
+                <default>false</default>
+                <label>Public Use Day Use</label>
+            </value>
+            <value>
+                <fullName>Reciprocal Sites</fullName>
+                <default>false</default>
+                <label>Reciprocal Sites</label>
+            </value>
+            <value>
+                <fullName>Rentals</fullName>
+                <default>false</default>
+                <label>Rentals</label>
+            </value>
+            <value>
+                <fullName>Unassigned</fullName>
+                <default>false</default>
+                <label>Unassigned</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

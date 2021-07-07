@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Membership_Add_Date__c</fullName>
+    <description>Brings up the oldest Membership Date</description>
+    <externalId>false</externalId>
+    <label>Membership Add Date</label>
+    <summarizedField>Membership__c.Date_Purchased__c</summarizedField>
+    <summaryForeignKey>Membership__c.Contact__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

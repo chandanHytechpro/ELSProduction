@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Default_First_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR( LOWER(FirstName) == &apos;first name&apos;, 
+LOWER(FirstName)== &apos;unknown&apos;, 
+LOWER(FirstName)== &apos;firstname&apos;, 
+LOWER(FirstName)= &apos;n/a&apos;, 
+LOWER(FirstName)= &apos;none&apos;,
+LOWER(FirstName)= &apos;invalid&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Default First Name</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

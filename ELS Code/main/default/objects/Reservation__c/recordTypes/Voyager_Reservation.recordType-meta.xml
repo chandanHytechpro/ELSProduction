@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Voyager_Reservation</fullName>
+    <active>true</active>
+    <label>Voyager Reservation</label>
+    <picklistValues>
+        <picklist>Core_Yes_No__c</picklist>
+        <values>
+            <fullName>N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Y</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Department_Category__c</picklist>
+        <values>
+            <fullName>Call Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expedia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>campUSA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Rate_Class_Group__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seasonal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transient</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Rate_Class__c</picklist>
+        <values>
+            <fullName>1-2 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-6 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MH Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PM Rental Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RV%2FPM Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Old_Rate_Class__c</picklist>
+        <values>
+            <fullName>1-2 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-6 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PM Rental Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Package_Yes_No__c</picklist>
+        <values>
+            <fullName>N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Y</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reservation_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_Class_Label__c</picklist>
+        <values>
+            <fullName>3rd Party Rentals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Condos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELS Lease%2FSub</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Encore Rentals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Encore Resorts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Encore Slips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Getaway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Rentals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Sites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Tents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Member Trailers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park Use Day Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park Use Facilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park Use Rentals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park Use Sites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park Use Tents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park Use Trailers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Rentals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Tents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Use Day Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reciprocal Sites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rentals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unassigned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indirect_Revenue__c</fullName>
+    <description>Indirect revenue grand total of all related promotional codes of Reservations booked after the Contact was added to the Campaign and within 7 days of receiving the Campaign email.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indirect revenue grand total of all related promotional codes of Reservations booked after the Contact was added to the Campaign and within 7 days of receiving the Campaign email.</inlineHelpText>
+    <label>Indirect Revenue Grand Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Web</fullName>
+    <columns>NAME</columns>
+    <columns>Source_Type__c</columns>
+    <columns>Source_ID__c</columns>
+    <columns>Description__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>Category__c</columns>
+    <columns>Counter__c</columns>
+    <columns>Form_Location__c</columns>
+    <columns>Form_Type__c</columns>
+    <columns>Form_Url__c</columns>
+    <columns>IP_Address__c</columns>
+    <columns>Joomla_Type__c</columns>
+    <columns>Origination__c</columns>
+    <columns>Origination_Page_Description__c</columns>
+    <columns>Source_Count__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Source_Type__c</field>
+        <operation>equals</operation>
+        <value>Web</value>
+    </filters>
+    <label>Web</label>
+</ListView>

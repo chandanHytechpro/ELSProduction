@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Record Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RCG</fullName>
+                <default>false</default>
+                <label>RCG</label>
+            </value>
+            <value>
+                <fullName>Sugar CRM</fullName>
+                <default>false</default>
+                <label>Sugar CRM</label>
+            </value>
+            <value>
+                <fullName>Woobox</fullName>
+                <default>false</default>
+                <label>Woobox</label>
+            </value>
+            <value>
+                <fullName>Joomla</fullName>
+                <default>false</default>
+                <label>Joomla</label>
+            </value>
+            <value>
+                <fullName>Search Climber</fullName>
+                <default>false</default>
+                <label>Search Climber</label>
+            </value>
+            <value>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+                <label>Tradeshow</label>
+            </value>
+            <value>
+                <fullName>Survey</fullName>
+                <default>false</default>
+                <label>Survey</label>
+            </value>
+            <value>
+                <fullName>V Rez</fullName>
+                <default>false</default>
+                <label>V Rez</label>
+            </value>
+            <value>
+                <fullName>KOA Leads</fullName>
+                <default>false</default>
+                <label>KOA Leads</label>
+            </value>
+            <value>
+                <fullName>Dealer</fullName>
+                <default>false</default>
+                <label>Dealer</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Paid Online</fullName>
+                <default>false</default>
+                <label>Paid Online</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Web</fullName>
+                <default>false</default>
+                <label>Web</label>
+            </value>
+            <value>
+                <fullName>Mem</fullName>
+                <default>false</default>
+                <label>Mem</label>
+            </value>
+            <value>
+                <fullName>Silver Pop</fullName>
+                <default>false</default>
+                <label>Silver Pop</label>
+            </value>
+            <value>
+                <fullName>Co-Registration</fullName>
+                <default>false</default>
+                <label>Co-Registration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

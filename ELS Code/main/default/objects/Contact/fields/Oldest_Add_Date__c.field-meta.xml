@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oldest_Add_Date__c</fullName>
+    <description>Brings the oldest add date from Contact, Reservation &amp; Membership</description>
+    <externalId>false</externalId>
+    <formula>If(BLANKVALUE(Add_Date__c, DATEVALUE(CreatedDate)) &lt;= BLANKVALUE(Reservation_Add_Date__c,TODAY()) &amp;&amp; BLANKVALUE(Add_Date__c,DATEVALUE(CreatedDate)) &lt;= BLANKVALUE(Membership_Add_Date__c,TODAY()), BLANKVALUE(Add_Date__c,DATEVALUE(CreatedDate)),
+
+If(BLANKVALUE(Reservation_Add_Date__c,TODAY()) &lt;= BLANKVALUE(Add_Date__c,TODAY()) &amp;&amp; BLANKVALUE(Reservation_Add_Date__c,TODAY()) &lt;= BLANKVALUE(Membership_Add_Date__c,TODAY()), BLANKVALUE(Reservation_Add_Date__c,TODAY()) ,
+
+If(BLANKVALUE(Membership_Add_Date__c,TODAY()) &lt;= BLANKVALUE(Add_Date__c,TODAY()) &amp;&amp; BLANKVALUE(Membership_Add_Date__c,TODAY()) &lt;= BLANKVALUE(Reservation_Add_Date__c,TODAY()) , BLANKVALUE(Membership_Add_Date__c,TODAY()) , TODAY())))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Oldest Add Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

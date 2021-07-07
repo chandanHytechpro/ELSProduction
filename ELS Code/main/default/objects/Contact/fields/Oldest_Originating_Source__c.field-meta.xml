@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Oldest_Originating_Source__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(BLANKVALUE(Add_Date__c,DATEVALUE(CreatedDate)) &lt;= BLANKVALUE(Reservation_Add_Date__c,TODAY()) &amp;&amp; BLANKVALUE(Add_Date__c,DATEVALUE(CreatedDate)) &lt;= BLANKVALUE(Membership_Add_Date__c,TODAY()),  BLANKVALUE(TEXT(Originating_Source__c),&apos;UNKNOWN&apos;) ,
+
+If(BLANKVALUE(Reservation_Add_Date__c,TODAY()) &lt;= BLANKVALUE(Add_Date__c,TODAY()) &amp;&amp; BLANKVALUE(Reservation_Add_Date__c,TODAY()) &lt;= BLANKVALUE(Membership_Add_Date__c,TODAY()), &apos;Reservation&apos; ,
+
+If(BLANKVALUE(Membership_Add_Date__c,TODAY()) &lt;= BLANKVALUE(Add_Date__c,TODAY()) &amp;&amp; BLANKVALUE(Membership_Add_Date__c,TODAY()) &lt;= BLANKVALUE(Reservation_Add_Date__c,TODAY()) , &apos;Membership&apos; , &apos;UNKNOWN&apos;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Oldest Originating Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

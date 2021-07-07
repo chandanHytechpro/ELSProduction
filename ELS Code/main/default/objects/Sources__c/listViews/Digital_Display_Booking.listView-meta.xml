@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digital_Display_Booking</fullName>
+    <columns>NAME</columns>
+    <columns>Description__c</columns>
+    <columns>Source_ID__c</columns>
+    <columns>Source_Type__c</columns>
+    <columns>Sub_type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Source_Type__c</field>
+        <operation>equals</operation>
+        <value>Digital Display Booking</value>
+    </filters>
+    <label>Digital Display Booking</label>
+</ListView>

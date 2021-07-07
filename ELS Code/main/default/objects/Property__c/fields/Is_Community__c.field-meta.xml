@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Community__c</fullName>
+    <externalId>false</externalId>
+    <label>Is Community</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>North Disc Ops</fullName>
+                <default>false</default>
+                <label>North Disc Ops</label>
+            </value>
+            <value>
+                <fullName>South MH</fullName>
+                <default>false</default>
+                <label>South MH</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

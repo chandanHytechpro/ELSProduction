@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DG_Delete_Membership__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  AND(OR(((YEAR( TODAY() ) *12 + MONTH( TODAY() )) - (YEAR( Date_Cancelled__c ) *12 + MONTH( Date_Cancelled__c))) &gt; 36,((YEAR( TODAY() ) *12 + MONTH( TODAY() )) - (YEAR( Renewal_Date__c ) *12 + MONTH( Renewal_Date__c))) &gt; 36 ),  NOT(Active__c ) ) 
+ , true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DG_Delete_Membership</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

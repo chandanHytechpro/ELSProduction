@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Camping</fullName>
+    <active>true</active>
+    <label>Discount Camping</label>
+    <picklistValues>
+        <picklist>Client_Type__c</picklist>
+        <values>
+            <fullName>Lazy Days Temp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Guest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Opportunity</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Discount_Camping_Yes_No__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Free_Trials_Yes_No__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Code__c</picklist>
+        <values>
+            <fullName>LZ14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LZEX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LZMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LZRR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LZUX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LZYH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LZYP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Description__c</picklist>
+        <values>
+            <fullName>Ready Camp Go - Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready Camp Go - Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready Camp Go - Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready Camp Go - Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

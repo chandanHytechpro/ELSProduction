@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Diamond_Caverns_Arriving_Next_7_Days</fullName>
+    <booleanFilter>1 AND 3 AND 4 AND (2 OR 5)</booleanFilter>
+    <columns>Contact__c</columns>
+    <columns>Arrival_Date__c</columns>
+    <columns>Departure_Date__c</columns>
+    <columns>Contact_Email__c</columns>
+    <columns>Contact_Phone__c</columns>
+    <columns>Customer_Type__c</columns>
+    <columns>Amount_due_before_taxes__c</columns>
+    <columns>Unit_Site_Type__c</columns>
+    <columns>Discounts__c</columns>
+    <columns>Product_Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Arrival_Date__c</field>
+        <operation>equals</operation>
+        <value>NEXT_N_DAYS:7</value>
+    </filters>
+    <filters>
+        <field>Unique_Property_ID__c</field>
+        <operation>equals</operation>
+        <value>5186</value>
+    </filters>
+    <filters>
+        <field>Reservation_Status__c</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>Unit_Site_Type__c</field>
+        <operation>notContain</operation>
+        <value>storage,annual</value>
+    </filters>
+    <filters>
+        <field>Unique_Property_ID__c</field>
+        <operation>equals</operation>
+        <value>5101</value>
+    </filters>
+    <label>Diamond Caverns Arriving Next 7 Days</label>
+    <sharedTo>
+        <group>Diamond_Caverns</group>
+    </sharedTo>
+</ListView>

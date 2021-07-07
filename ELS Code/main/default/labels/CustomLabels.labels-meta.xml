@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Campaign_Functionality</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Functionality</shortDescription>
+        <value>True</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Client_Phone_Cleaning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Client Phone Cleaning</shortDescription>
+        <value>US;PR;GU;CA;VI;USA</value>
+    </labels>
+    <labels>
+        <fullName>Property_Numbers_to_filter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Property Numbers to filter</shortDescription>
+        <value>5036224011;8047584349;5305412222;5186233207</value>
+    </labels>
+    <labels>
+        <fullName>ReservationProfileId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReservationProfileId</shortDescription>
+        <value>00ej0000000DlQF</value>
+    </labels>
+</CustomLabels>

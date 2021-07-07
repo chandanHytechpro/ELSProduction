@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Set_Annual_to_false</fullName>
+        <field>Annual__c</field>
+        <literalValue>0</literalValue>
+        <name>Set Annual to false</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Annual_to_true</fullName>
+        <field>Annual__c</field>
+        <literalValue>1</literalValue>
+        <name>Set Annual to true</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Seasonal_to_false</fullName>
+        <field>Seasonal__c</field>
+        <literalValue>0</literalValue>
+        <name>Set Seasonal to false</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Seasonal_to_true</fullName>
+        <field>Seasonal__c</field>
+        <literalValue>1</literalValue>
+        <name>Set Seasonal to true</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Transient_to_false</fullName>
+        <field>Transient__c</field>
+        <literalValue>0</literalValue>
+        <name>Set Transient to false</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_Transient_to_true</fullName>
+        <description>Setting Transient to true</description>
+        <field>Transient__c</field>
+        <literalValue>1</literalValue>
+        <name>Set Transient to true</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Annual Reservation</fullName>
+        <actions>
+            <name>Set_Annual_to_true</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Seasonal_to_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Transient_to_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>If Reservation with a number of nights &gt;185 days then it is Annual</description>
+        <formula>AND(Number_Of_Nights__c &gt; 185,  NOT(Cancelled__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Seasonal Reservation</fullName>
+        <actions>
+            <name>Set_Annual_to_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Seasonal_to_true</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Transient_to_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>If Reservation with a number of nights &gt;27 days but less than 186 days then it is Seasonal</description>
+        <formula>AND(Number_Of_Nights__c &lt; 186, Number_Of_Nights__c &gt; 27,  NOT(Cancelled__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Transient Reservation</fullName>
+        <actions>
+            <name>Set_Annual_to_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Seasonal_to_false</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Set_Transient_to_true</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>If Reservation with a number of nights &lt;28 days then it is transient</description>
+        <formula>AND(Number_Of_Nights__c &lt; 28, Number_Of_Nights__c &gt;= 0,  NOT(Cancelled__c))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

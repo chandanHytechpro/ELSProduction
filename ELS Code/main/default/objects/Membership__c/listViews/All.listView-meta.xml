@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Member_ID__c</columns>
+    <columns>Client_ID__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Product_Description__c</columns>
+    <columns>Date_Purchased__c</columns>
+    <columns>Date_Cancelled__c</columns>
+    <columns>Active__c</columns>
+    <columns>Promotion_Code__c</columns>
+    <columns>Source_ID__c</columns>
+    <columns>Co_Applicant_First_Name__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LAST_UPDATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>7/22/2015 12:00 AM</value>
+    </filters>
+    <label>All</label>
+</ListView>

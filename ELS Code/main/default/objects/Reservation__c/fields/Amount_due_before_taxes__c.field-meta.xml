@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_due_before_taxes__c</fullName>
+    <description>Included in Jitterbit API_11_Upsert_Reservation Request &amp; Process_4_Upsert_Reservations Request transformations. Used in the Org Amount Due Before Taxes &amp; Discounts field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Gross value before taxes and discounts. Used in the Org Amount Due Before Taxes &amp; Discounts field.</inlineHelpText>
+    <label>Current Charges Before Taxes &amp; Discounts</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

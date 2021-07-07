@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Default_Address__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR( LOWER(MailingStreet) == &apos;default&apos;, 
+MailingStreet == &apos;0&apos;, 
+LOWER(MailingStreet)== &apos;123 main street&apos;, 
+LOWER(MailingCity) = &apos;default&apos;,
+LOWER(MailingCity) = &apos;anytown&apos;,
+LOWER(MailingState) = &apos;xx&apos;, 
+MailingPostalCode = &apos;99999&apos;, 
+MailingPostalCode = &apos;00000&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Default Address</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
